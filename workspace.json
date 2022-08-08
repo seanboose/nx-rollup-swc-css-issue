@@ -2,6 +2,7 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "buildable-swc": "libs/buildable-swc",
     "nx-rollup-swc-css-issue": "apps/nx-rollup-swc-css-issue",
     "nx-rollup-swc-css-issue-e2e": "apps/nx-rollup-swc-css-issue-e2e"
   }

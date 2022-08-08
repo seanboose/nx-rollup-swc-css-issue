@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-rollup-swc-css-issue/buildable-swc": [
+        "libs/buildable-swc/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
